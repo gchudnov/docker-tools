@@ -1,11 +1,12 @@
 # docker-tools
 Docker-related tools and scripts
 
+## dcp.sh
 ```shell
 dcp.sh 
 Usage: dcp.sh [OPTIONS] SOURCE DESTINATION
 
-Copies files and directories between running containers and host
+Copies files and directories between running containers and the host
 
 Patterns:
   dcp.sh CONTAINER:PATH HOSTPATH
