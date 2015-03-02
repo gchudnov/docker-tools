@@ -109,7 +109,7 @@ usage() {
   script=$(basename "$0")
   echo "Usage: $script [OPTIONS] SOURCE DESTINATION
 
-Copies files and directories between running containers and host
+Copies files and directories between running containers and the host
 
 Patterns:
   $script CONTAINER:PATH HOSTPATH
