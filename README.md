@@ -5,7 +5,7 @@ Docker-related tools and scripts
 
 [Copying data between Docker containers](https://medium.com/@gchudnov/copying-data-between-docker-containers-26890935da3f)
 
-## dcp.sh
+## Copying data between Docker containers -- dcp.sh
 
 ```shell
 dcp.sh 
@@ -44,3 +44,5 @@ Options:
     -h       Display this help message
 
 ```
+
+## Trapping signals in Docker
