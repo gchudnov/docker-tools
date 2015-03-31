@@ -1,0 +1,21 @@
+{
+  "name": "signal-fg-app",
+  "version": "1.0.0",
+  "description": "signal-fg-app",
+  "main": "program.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gchudnov/docker-tools.git"
+  },
+  "author": "Grigoriy Chudnov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gchudnov/docker-tools/issues"
+  },
+  "homepage": "https://github.com/gchudnov/docker-tools"
+}
