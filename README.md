@@ -45,11 +45,12 @@ Options:
 
 ```
 
+
 ## Trapping signals in Docker
 [Demo-code](https://github.com/gchudnov/docker-tools/tree/master/signals)
 
-* /foreground -- Application is the main process in the container (PID1)
-* /background -- Application is the background process in the container (!= PID1)
+* `/foreground` -- Application is the main process in the container (PID1)
+* `/background` -- Application is the background process in the container (!= PID1)
 
 ### Building an image
 ```bash
