@@ -50,20 +50,25 @@ Options:
 [Demo-code](https://github.com/gchudnov/docker-tools/tree/master/signals)
 
 * `/foreground` -- Application is the main process in the container (PID1)
-* `/background` -- Application is the background process in the container (!= PID1)
+* `/background` -- Application is the background process in the container (<> PID1)
 
-### Building an image
+### Building the image
 ```bash
 $ ./build.sh
 ```
 
-### Running a container
+### Running the container
 ```bash
 $ ./run.sh
 ```
 
 ### Sending signals
+#### SIGUSR1
 ```bash
 $ ./sig-usr1.sh
+```
+
+#### SIGTERM
+```bash
 $ ./sig-term.sh
 ```
