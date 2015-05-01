@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-# v1.0.0
+# v1.0.1
 
 # The MIT License (MIT)
 #
@@ -41,12 +41,12 @@ is_container_path() { string_contain ':' "$1"; }
 
 # make directory inside the container
 container_mkdir() {
-  docker exec -i "$1" sh -c "[ -d $2 ] || mkdir -p $2"
+  docker exec "$1" sh -c "[ -d $2 ] || mkdir -p $2"
 }
 
 # copy host file to container
 container_cp() {
-  cmd="docker exec -i $2 sh -c 'cat > $3' < $1"
+  cmd="docker exec $2 sh -c 'cat > $3' < $1"
   eval "$cmd";
 }
 
