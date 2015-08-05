@@ -46,7 +46,7 @@ container_mkdir() {
 
 # copy host file to container
 container_cp() {
-  cmd="docker exec $2 sh -c 'cat > $3' < $1"
+  cmd="docker exec -i $2 sh -c 'cat > $3' < $1"
   eval "$cmd";
 }
 
