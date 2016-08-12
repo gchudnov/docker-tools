@@ -26,7 +26,7 @@ trap 'kill ${!}; term_handler' SIGTERM
 node program &
 pid="$!"
 
-# wait indefinetely
+# wait forever
 while true
 do
   tail -f /dev/null & wait ${!}
